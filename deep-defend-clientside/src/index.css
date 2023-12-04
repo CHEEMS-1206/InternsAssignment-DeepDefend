@@ -8,6 +8,45 @@
   box-sizing: border-box;
 }
 
+/* // sidebar styles // */
+.sidebar {
+  background-color: rgb(3, 13, 45);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  padding: 10px;
+  width: max-content;
+}
+.sidebar .logo{
+  color : skyblue;
+  margin-bottom: 20px;
+}
+.sidebar .help{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 50%;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.sidebar .auth{
+  color: blueviolet;
+  margin-top: 20px;
+  background-color: aquamarine;
+}
+.sidebar .logoAndLinks{
+  position: relative;
+  top : 20px;
+}
+.sidebar .helpAndAuth{
+  position: fixed;
+  bottom : 20px
+}
+
 /* // Sidebar entity styling //  */
 .sidebarEntity {
   color: white;
@@ -16,8 +55,8 @@
   align-items:center;
   border-radius: 50%;
   margin: auto;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   cursor: pointer;
 }
 .sidebarEntity:hover {

@@ -85,3 +85,4 @@ Page 1/2 (DashBoard-1)
 
 **Feature implementation and time stamp**
 -> creating wrapper for every container block.
+-> created the sidebar component.

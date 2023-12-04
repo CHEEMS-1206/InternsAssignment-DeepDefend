@@ -1,8 +1,9 @@
+import Sidebar from "./Dashboard-1/Sidebar";
 
 function App() {
   return (
     <div className="App">
-      Hello World
+      <Sidebar/>
     </div>
   );
 }

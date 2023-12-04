@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 
-function SidebarEntity({ linkToAddress, content }) {
+function SidebarEntity({ linkToAddress, content, hoverLabel }) {
 
   // redirection
   const handleClick = () => {
@@ -8,7 +8,7 @@ function SidebarEntity({ linkToAddress, content }) {
   };
 
   return (
-    <div className="sidebarEntity" onClick={handleClick} >
+    <div className="sidebarEntity" onClick={handleClick} title={hoverLabel}>
       {content}
     </div>
     // alternatively we can use react-router-dom link component
