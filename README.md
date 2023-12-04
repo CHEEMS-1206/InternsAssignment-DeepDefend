@@ -39,7 +39,7 @@ https://www.youtube.com/watch?v=8I5a1ZHmYMg&t=53s
 https://www.youtube.com/watch?v=srdS_HKEXFo&t=111s
 
 **Approach**
-Page 1/2
+Page 1/2 (DashBoard-1)
 -> sidebar having links
     logo
     analytics
@@ -84,3 +84,4 @@ Page 1/2
             metrices
 
 **Feature implementation and time stamp**
+-> creating wrapper for every container block.
