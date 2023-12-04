@@ -39,5 +39,48 @@ https://www.youtube.com/watch?v=8I5a1ZHmYMg&t=53s
 https://www.youtube.com/watch?v=srdS_HKEXFo&t=111s
 
 **Approach**
+Page 1/2
+-> sidebar having links
+    logo
+    analytics
+    feed
+    tool
+    mail
+    collaborate
+    settings
+    search
+    help
+    user-logged-in
+
+-> header component
+    security-score-component - title, grade, score(in numerals), analytics
+    component-scenarios - analytics, settings
+    graph-section
+        selectors 
+            data - week, month, quarterly, half-yearly basis
+            plots - daily, weekly basis
+        full screen garph button
+        graph
+
+-> dropdown selectors
+    scenarios-selector
+    day-count selector
+
+-> 4 sub-sectional components - title and button to separate page (view all)
+    1. scenarios at risk
+        title and button to separate page
+        list of scenarios with - logo, desc, graph, button(take-actions)
+    2. critical assets at risk
+        subtitle
+        table
+        pie-chart
+    3. top choke points
+        subtitle
+        table
+        bubble-chart
+    4. top impacting attack tecniques
+        3 separate compoenents each having
+            title
+            metrices
 
 **Feature implementation and time stamp**
