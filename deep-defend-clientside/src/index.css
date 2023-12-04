@@ -1,7 +1,27 @@
-*{
+* {
   margin: 0;
   padding: 0;
+  outline: none;
+  border: none;
   background-color: transparent;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+/* // Sidebar entity styling //  */
+.sidebarEntity {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  border-radius: 50%;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+.sidebarEntity:hover {
+  color: yellow;
+  background-color: purple;
+  transition: all ease 0.4s;
 }
