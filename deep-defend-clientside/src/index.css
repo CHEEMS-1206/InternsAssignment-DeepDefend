@@ -34,7 +34,10 @@
 }
 .sidebar .logo {
   color: skyblue;
-  margin-bottom: 20px;
+  background-color: #6c00e0;
+  position: relative;
+  top:10px;
+  margin-bottom: 15px;
 }
 .sidebar .help {
   color: white;
@@ -192,4 +195,22 @@
   margin-right: 20px;
   padding: 7px 10px;
   min-width: 120px;
+}
+
+.titleAndButtonContainer{
+  height: max-content;
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  color : white;
+}
+.titleAndButtonContainer p{
+  padding: 4px 8px;
+}
+.titleAndButtonContainer button{
+  color:white;
+  padding: 6px 0px;
+  margin-left: 15px;
 }
