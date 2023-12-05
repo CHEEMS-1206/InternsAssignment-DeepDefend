@@ -9,14 +9,16 @@
 }
 
 /* // main page styling //  */
-.App{
+.App {
   display: flex;
   height: 100vh;
   width: 100vw;
   align-items: center;
   background-color: #15161c;
 }
-.mainbody{
+
+/* // styling the main body container // */
+.mainbody {
   height: 100vh;
   width: calc(100vw - 45px);
   padding: 20px 30px;
@@ -30,33 +32,33 @@
   padding: 10px;
   width: max-content;
 }
-.sidebar .logo{
-  color : skyblue;
+.sidebar .logo {
+  color: skyblue;
   margin-bottom: 20px;
 }
-.sidebar .help{
+.sidebar .help {
   color: white;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   border-radius: 50%;
   margin: auto;
   height: 30px;
   width: 30px;
   cursor: pointer;
 }
-.sidebar .auth{
+.sidebar .auth {
   color: #6c00e0;
   margin-top: 20px;
   background-color: #37c491;
 }
-.sidebar .logoAndLinks{
+.sidebar .logoAndLinks {
   position: relative;
-  top : 20px;
+  /* top : 20px; */
 }
-.sidebar .helpAndAuth{
+.sidebar .helpAndAuth {
   position: fixed;
-  bottom : 20px
+  bottom: 20px;
 }
 
 /* // Sidebar entity styling //  */
@@ -64,7 +66,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   border-radius: 50%;
   margin: auto;
   height: 35px;
@@ -77,16 +79,117 @@
   transition: all ease 0.4s;
 }
 
+/* // styling the header component //  */
+.headerComponent {
+  background-color: #202128;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 25%;
+  padding: 10px 10px 20px 10px;
+}
+.securityScoreContainer {
+  background-color: #2b2b36;
+  height: 100%;
+  width: 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.securityScoreContainer .title {
+  font-size: 18px;
+  color: white;
+}
+.securityScoreContainer .grade {
+  font-size: 26px;
+  padding: 5px;
+  border-radius: 50%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  display: flex;
+  background-color: #fc7320;
+  color: #15161c;
+}
+.securityScoreContainer .score {
+  font-size: 20px;
+  color: white;
+}
+.securityScoreContainer .analytics {
+  font-size: 11px;
+  color: white;
+}
+
+.compareScenariosSection {
+  height: 100%;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  padding: 10px;
+}
+.compareScenariosSection div{
+  font-size: 11px;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 4px;
+}
+.compareScenariosSection #dotorange, .compareScenariosSection #dotpurple, .compareScenariosSection #dotgreen {
+  display: inline-block;
+  margin-right: 8px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+.compareScenariosSection #dotorange{
+  background-color: #fc7320;
+}
+.compareScenariosSection #dotpurple{
+  background-color:#6c00e0;
+}
+.compareScenariosSection #dotgreen{
+  background-color:#37c491;
+}
+.compareScenariosSection .title{
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+.compareScenariosSection .settingHolder{
+  margin-top: 40px;
+  font-size: 13px;
+}
+.compareScenariosSection .settingHolder #settingButton{
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.barGraph{
+  width:70%;
+  height: 100%;
+  /* background-color: #37c491; */
+}
+.barGraph img{
+  height: 100%;
+  width: 100%;
+}
+
+/* // .DropdownSelectorComponent styling //  */
+.DropdownSelectorComponent {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1% 0;
+  align-items: center;
+}
 /* // Dropdown component //  */
-.dropdown select{
-  color:white;
+.dropdown select {
+  color: white;
   background-color: #15161c;
   margin-right: 20px;
   padding: 7px 10px;
   min-width: 120px;
-}
-.DropdownSelectorComponent{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
 }

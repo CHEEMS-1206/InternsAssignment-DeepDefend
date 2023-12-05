@@ -86,3 +86,10 @@ Page 1/2 (DashBoard-1)
 **Feature implementation and time stamp**
 -> creating wrapper for every container block.
 -> created the sidebar component.
+-> creating the main body component
+-> creating the 
+            header component:
+                security score component
+                comparision scenario component
+                graph component - used an image tag rather than graph (unable to get enough data for graph creation)
+            dropdown selectors
