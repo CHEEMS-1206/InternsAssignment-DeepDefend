@@ -10,10 +10,8 @@
 
 /* // sidebar styles // */
 .sidebar {
-  background-color: rgb(3, 13, 45);
   display: flex;
   flex-direction: column;
-  position: fixed;
   height: 100vh;
   padding: 10px;
   width: max-content;
@@ -34,9 +32,9 @@
   cursor: pointer;
 }
 .sidebar .auth{
-  color: blueviolet;
+  color: #6c00e0;
   margin-top: 20px;
-  background-color: aquamarine;
+  background-color: #37c491;
 }
 .sidebar .logoAndLinks{
   position: relative;
@@ -61,6 +59,15 @@
 }
 .sidebarEntity:hover {
   color: yellow;
-  background-color: purple;
+  background-color: #6c00e0;
   transition: all ease 0.4s;
+}
+
+/* // Dropdown component //  */
+.dropdown select{
+  color:white;
+  background-color: #15161c;
+  margin-right: 20px;
+  padding: 7px 10px;
+  min-width: 120px;
 }
