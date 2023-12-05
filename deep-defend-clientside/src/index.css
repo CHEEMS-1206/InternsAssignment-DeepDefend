@@ -8,6 +8,20 @@
   box-sizing: border-box;
 }
 
+/* // main page styling //  */
+.App{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  background-color: #15161c;
+}
+.mainbody{
+  height: 100vh;
+  width: calc(100vw - 45px);
+  padding: 20px 30px;
+}
+
 /* // sidebar styles // */
 .sidebar {
   display: flex;
@@ -70,4 +84,9 @@
   margin-right: 20px;
   padding: 7px 10px;
   min-width: 120px;
+}
+.DropdownSelectorComponent{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
