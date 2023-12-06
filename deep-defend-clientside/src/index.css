@@ -16,22 +16,26 @@
   width: 100vw;
   align-items: center;
   background-color: #15161c;
+  overflow: hidden;
 }
 
 /* // styling the main body container // */
 .mainbody {
   height: 100vh;
-  width: calc(100vw - 45px);
+  width: calc(100vw - 50px);
+  position: relative;
+  left: 50px;
   padding: 20px 30px;
 }
 
 /* // sidebar styles // */
 .sidebar {
   display: flex;
+  position: fixed;
   flex-direction: column;
   height: 100vh;
   padding: 10px;
-  width: max-content;
+  width: 60px;
 }
 .sidebar .logo {
   color: skyblue;
@@ -323,4 +327,54 @@
   left: 3%;
   position: relative;
   bottom: 20%
+}
+
+/* // sub trio component //  */
+.sub-trio-componentHolder{
+  display: flex;
+  justify-content: space-evenly;
+  color : white;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+}
+.subTrioComponent{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 29%;
+  /* border:1px solid white; */
+  background-color: #202128;
+  padding: 15px 15px;
+}
+.subTrioComponent h4{
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.subTrioComponent p{
+  font-size: 11px;
+}
+.subTrioComponent .AA-CA-holder{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0;
+  align-items: center;
+}
+.subTrioComponent span{
+  font-weight: 900;
+}
+.subTrioComponent .remediation-holder{
+  text-align: center;
+  font-size: 13px;
+} 
+.complexityType, .severityType{
+  color:#7e0e28;
+}
+.affectedAssets, .criticalAssets{
+  font-size: 25px;
+  padding-left: 25%;
+}
+.criticalAssets{
+  color:#7e0e28
 }
