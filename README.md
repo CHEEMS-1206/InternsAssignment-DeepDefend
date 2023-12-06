@@ -93,3 +93,4 @@ Page 1/2 (DashBoard-1)
                 comparision scenario component
                 graph component - used an image tag rather than graph (unable to get enough data for graph creation)
             dropdown selectors
+            container for 4 sub sectional components

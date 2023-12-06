@@ -204,6 +204,7 @@
   height: max-content;
   /* background-color: #2b2b36; */
   width: max-content;
+  margin-bottom: 1%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -231,18 +232,19 @@
 .mainComponent .subComponent {
   display: flex;
   flex-direction: column;
-  height: 48%;
+  height: 45%;
+  margin-bottom: 2%;
   width: 49.5%;
   /* background-color: #6c00e0; */
   justify-content: space-between;
 }
 
-.scenariosAtHighRiskDescComponentHolder {
+.sub-subcomponent {
   display: flex;
   flex-direction: column;
   height: 88%;
   padding: 30px 40px;
-  background-color:#2b2b36;
+  background-color:#202128;
 }
 .scenariosAtHighRiskDescComponent {
   /* background-color: aqua; */
@@ -268,7 +270,7 @@
 }
 .scenariosAtHighRiskDescComponent .title {
   font-size: 17px;
-  min-width: 400px;
+  min-width: 320px;
   color: white;
 }
 .scenariosAtHighRiskDescComponent button {
@@ -278,4 +280,47 @@
   margin-left: 15px;
   border:1px solid white;
   border-radius: 5px;
+}
+
+.titleTableAndGraphImageComponent{
+  display: flex;
+  flex-direction: row;
+  /* background-color: #6c00e0; */
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+.titleTableAndGraphImageComponent .titleContainerDiv{
+  width: 75%;
+  color:white;
+}
+.titleTableAndGraphImageComponent .titleContainerDiv p{
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.titleTableAndGraphImageComponent .titleContainerDiv table{
+  width: 100%;
+}
+.titleTableAndGraphImageComponent .titleContainerDiv table thead th{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.titleTableAndGraphImageComponent .titleContainerDiv table thead th td:first-child{
+  width: 60%;
+  text-align: left;
+}
+.titleTableAndGraphImageComponent .titleContainerDiv table tbody tr{
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.titleTableAndGraphImageComponent .graphContainer{
+  height: 100%;
+  width: 25%;
+  left: 3%;
+  position: relative;
+  bottom: 20%
 }
