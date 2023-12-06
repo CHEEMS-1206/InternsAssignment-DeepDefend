@@ -3,6 +3,7 @@
   padding: 0;
   outline: none;
   border: none;
+  border: none;
   background-color: transparent;
   text-decoration: none;
   box-sizing: border-box;
@@ -36,7 +37,7 @@
   color: skyblue;
   background-color: #6c00e0;
   position: relative;
-  top:10px;
+  top: 10px;
   margin-bottom: 15px;
 }
 .sidebar .help {
@@ -136,47 +137,49 @@
   align-items: left;
   padding: 10px;
 }
-.compareScenariosSection div{
+.compareScenariosSection div {
   font-size: 11px;
   font-weight: 300;
   color: white;
   margin-bottom: 4px;
 }
-.compareScenariosSection #dotorange, .compareScenariosSection #dotpurple, .compareScenariosSection #dotgreen {
+.compareScenariosSection #dotorange,
+.compareScenariosSection #dotpurple,
+.compareScenariosSection #dotgreen {
   display: inline-block;
   margin-right: 8px;
   height: 5px;
   width: 5px;
   border-radius: 50%;
 }
-.compareScenariosSection #dotorange{
+.compareScenariosSection #dotorange {
   background-color: #fc7320;
 }
-.compareScenariosSection #dotpurple{
-  background-color:#6c00e0;
+.compareScenariosSection #dotpurple {
+  background-color: #6c00e0;
 }
-.compareScenariosSection #dotgreen{
-  background-color:#37c491;
+.compareScenariosSection #dotgreen {
+  background-color: #37c491;
 }
-.compareScenariosSection .title{
+.compareScenariosSection .title {
   margin-bottom: 15px;
   font-size: 15px;
 }
-.compareScenariosSection .settingHolder{
+.compareScenariosSection .settingHolder {
   margin-top: 40px;
   font-size: 13px;
 }
-.compareScenariosSection .settingHolder #settingButton{
+.compareScenariosSection .settingHolder #settingButton {
   display: inline-block;
   margin-right: 15px;
 }
 
-.barGraph{
-  width:70%;
+.barGraph {
+  width: 70%;
   height: 100%;
   /* background-color: #37c491; */
 }
-.barGraph img{
+.barGraph img {
   height: 100%;
   width: 100%;
 }
@@ -197,20 +200,82 @@
   min-width: 120px;
 }
 
-.titleAndButtonContainer{
+.titleAndButtonContainer {
   height: max-content;
+  /* background-color: #2b2b36; */
   width: max-content;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   align-content: center;
-  color : white;
+  color: white;
 }
-.titleAndButtonContainer p{
+.titleAndButtonContainer p {
   padding: 4px 8px;
 }
-.titleAndButtonContainer button{
-  color:white;
+.titleAndButtonContainer button {
+  color: white;
   padding: 6px 0px;
   margin-left: 15px;
+}
+
+/* // styling the bottom page // */
+.mainComponent {
+  display: flex;
+  height: 60%;
+  /* background-color: #37c491; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.mainComponent .subComponent {
+  display: flex;
+  flex-direction: column;
+  height: 48%;
+  width: 49.5%;
+  /* background-color: #6c00e0; */
+  justify-content: space-between;
+}
+
+.scenariosAtHighRiskDescComponentHolder {
+  display: flex;
+  flex-direction: column;
+  height: 88%;
+  padding: 30px 40px;
+  background-color:#2b2b36;
+}
+.scenariosAtHighRiskDescComponent {
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: max-content;
+  margin-bottom: 8px;
+}
+.scenariosAtHighRiskDescComponent .grade {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 5px;
+  border-radius: 50%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  display: flex;
+  background-color: #7e0e28;
+  color: #15161c;
+}
+.scenariosAtHighRiskDescComponent .title {
+  font-size: 17px;
+  min-width: 400px;
+  color: white;
+}
+.scenariosAtHighRiskDescComponent button {
+  color: white;
+  font-size: 10px;
+  padding: 6px 10px;
+  margin-left: 15px;
+  border:1px solid white;
+  border-radius: 5px;
 }
